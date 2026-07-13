@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agent-hierarchical-planner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Hierarchical task breakdown planner.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "planning",
+    "hierarchical"
+  ],
+  "inputs": {
+    "goal": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "subtasks": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
